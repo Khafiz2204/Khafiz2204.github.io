@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> About Me </title>
+      <link rel="stylesheet" type="text/css" href="../Css/CareerPathChoice.css">
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="../hover_button.js"></script>
+		
+		
+
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="../index.html">Home</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="CareerPathChoice.html">Career Path Choice <span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="AreaSelection.html">About Me</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Useful Links
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <center><a class="dropdown-item" href="#"><form action="https://www.nationsvoice.co/">
+                                    <input type="button" value="Nations Voice" /></center> </form></a>
+                                <center><a class="dropdown-item" href="#"><form action="https://www.ecolint.ch/">
+                                    <input type="button" value="Ecolint" /></center> </form> </a>
+                                <center><a class="dropdown-item" href="#"><form action="https://docs.google.com/document/d/1Ijm5qGQmWC3c1RDObTJ6xiruDIzSCxe01UFnNKu0NxE/edit?usp=sharing">
+                                    <input type="button" value="Sources Used" /></center>
+                                </form></a>
+                              </div>
+                            </li>
+                            <li class="nav-item">
+                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            <img src="../Pics/Blank.png" alt="Italian Trulli" width="85" height="50">
+                            <img src="../Pics/Blank.png" alt="Italian Trulli" width="240" height="50">
+                            <img src="../Pics/Ecolint.jpg" alt="Italian Trulli" style="width:240px;height:50px;border:0;">
+                          </form>
+                        </div>
+      </nav>
+     
+			<br>
+      <h1 id= "ChoosePath"> Choose your career path </h1>
+      <br>
+      <br>
+			<div id="subjects">
+			
+			
+				<div id="top-row">
+
+					
+					<div onmouseleave="onLeave('Medicine_buttons')" id="Medicine" class="subject_btn">
+            <center><p>Medicine</p></center>
+            <div onmouseleave="onLeave('Medicine_buttons')" id="Medicine_buttons" class="country_btns_div">
+                <div id="top">
+                  <img class= "C-Icon" src="../Pics/US.png" onclick="redirect('M','US')">
+                  <img class= "C-Icon" src="../Pics/UK.png" onclick="redirect('M','UK')">
+                </div>
+                <div id="bottom">
+                  <img class= "C-Icon" src="../Pics/Swiss.png" onclick="redirect('M','Swiss')">
+                  <img class= "C-Icon" src="../Pics/Canada.png" onclick="redirect('M','Canada')">
+                </div>
+            </div>
+            <center><img onmouseenter="onHover('Medicine_buttons')" id= "Medicine" src="../Pics/Medicine.png" alt="Medicine Icon" style="width:90px;height:90px;border:0;"></center>
+            
+					</div>
+					</a>
+
+					
+					<div onmouseleave="onLeave('Politics_buttons')" id="Politics" class="subject_btn">
+            <center><p>Politics</p></center>
+            <div onmouseleave="onLeave('Politics_buttons')" id="Politics_buttons" class="country_btns_div">
+                <div id="top">
+                  <img class= "C-Icon" src="../Pics/US.png" onclick="redirect('P','US')">
+                  <img class= "C-Icon" src="../Pics/UK.png" onclick="redirect('P','UK')">
+                </div>
+                <div id="bottom">
+                  <img class= "C-Icon" src="../Pics/Swiss.png" onclick="redirect('P','Swiss')">
+                  <img class= "C-Icon" src="../Pics/Canada.png" onclick="redirect('P','Canada')">
+                </div>
+            </div> 
+            <center><img onmouseenter="onHover('Politics_buttons')" id= "Politics" src="../Pics/Politics.png" alt="Politics Icon" style="width:90px;height:90px;border:0;"></center>
+                      
+					</div>
+					</a>
+
+					
+					<div onmouseleave="onLeave('Law_buttons')" id="Law" class="subject_btn">
+            <center><p>Law</p></center>
+            <div onmouseleave="onLeave('Law_buttons')" id="Law_buttons"class="country_btns_div">
+                <div id="top">
+                  <img class= "C-Icon" src="../Pics/US.png"onclick="redirect('L','US')">
+                  <img class= "C-Icon" src="../Pics/UK.png"onclick="redirect('L','US')">
+                </div>
+                <div id="bottom">
+                  <img class= "C-Icon" src="../Pics/Swiss.png"onclick="redirect('L','US')">
+                  <img class= "C-Icon" src="../Pics/Canada.png"onclick="redirect('L','Canada')">
+                </div>
+            </div>
+						<center><img onmouseenter="onHover('Law_buttons')" id= "Law" src="../Pics/Law.png" alt="Law Icon" style="width:90px;height:90px;border:0;"></center>
+					</div>
+					</a>
+				</div>
+				
+				<div id="bottom-row">
+
+					
+					<div onmouseleave="onLeave('Business_buttons')" id="Business" class="subject_btn">
+            <center><p>Business and Finance</p></center>
+            <div onmouseleave="onLeave('Business_buttons')" id="Business_buttons" class="country_btns_div">
+                <div id="top">
+                  <img class= "C-Icon" src="../Pics/US.png"onclick="redirect('B','US')">
+                  <img class= "C-Icon" src="../Pics/UK.png"onclick="redirect('B','UK')">
+                </div>
+                <div id="bottom">
+                  <img class= "C-Icon" src="../Pics/Swiss.png"onclick="redirect('B','Swiss')">
+                  <img class= "C-Icon" src="../Pics/Canada.png"onclick="redirect('B','Canada')">
+                </div>
+            </div>
+						<center><img onmouseenter="onHover('Business_buttons')" id= "BF" src="../Pics/BF.png" alt="Business and Finance Icon" style="width:90px;height:90px;border:0;"></center>
+					</div>
+					</a>
+
+					
+					<div onmouseleave="onLeave('Education_buttons')" id="Education" class="subject_btn">
+            <center><p>Education</p></center>
+            <div onmouseleave="onLeave('Education_buttons')" id="Education_buttons" class="country_btns_div">
+                <div id="top">
+                  <img class= "C-Icon" src="../Pics/US.png"onclick="redirect('ED','US')">
+                  <img class= "C-Icon" src="../Pics/UK.png"onclick="redirect('ED','UK')">
+                </div>
+                <div id="bottom">
+                  <img class= "C-Icon" src="../Pics/Swiss.png" onclick="redirect('ED','Swiss')">
+                  <img class= "C-Icon" src="../Pics/Canada.png"onclick="redirect('ED','Canada')">
+                </div>
+            </div>
+						<center><img onmouseenter="onHover('Education_buttons')" src="../Pics/Education.png" alt="Education Icon" style="width:90px;height:90px;border:0;"></center>
+					</div>
+					</a>
+
+					<div onmouseleave="onLeave('Engineering_buttons')" id="Engineering" class="subject_btn">
+          <center><p>Engineering and Manufacturing</p></center>
+          <div onmouseleave="onLeave('Engineering_buttons')" id="Engineering_buttons" class="country_btns_div">
+              <div id="top">
+                <img class= "C-Icon" src="../Pics/US.png" onclick="redirect('Eng','US')">
+                <img class= "C-Icon" src="../Pics/UK.png" onclick="redirect('Eng','UK')">
+              </div>
+              <div id="bottom">
+                <img class= "C-Icon" src="../Pics/Swiss.png" onclick="redirect('Eng','Swiss')">
+                <img class= "C-Icon" src="../Pics/Canada.png" onclick="redirect('Eng','Canada')">
+              </div>
+          </div>
+					<center><img onmouseenter="onHover('Engineering_buttons')" src="../Pics/Engineering.png" alt="Engineering and Manufacturing Icon" style="width:90px;height:90px;border:0;" ></center>
+					</div>
+					</a>
+				</div>
+      </div>
+      
+  <script>
+
+    // On hover (subjcet image) show buttons div
+
+    function onHover(button_div_id){
+      // unhide div
+      var country_btn_div = document.getElementById(button_div_id);
+      country_btn_div.style.display = "block";
+      //console.log(country_btn_div.style.display);
+
+    }
+
+    // On mouse leave (country buttons div)
+
+    function onLeave(button_div_id){
+      // hide div
+      var country_btn_div = document.getElementById(button_div_id);
+      country_btn_div.style.display = "none";
+      //console.log(country_btn_div.style.display);
+
+    }
+    // On button click
+    function redirect(subject, country){
+      //window.location.href=subject + "_" + country + ".html"
+      window.location.href = subject + "-" + country + "-"+ "Unis" +".html";
+      console.log(subject + "-" + country + "-"+ "Unis" +".html");
+                //L-UK-Unis.html
+    }
+
+  </script>
+			
+
+
+
+</body>
+</html>

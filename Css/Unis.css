@@ -1,0 +1,22 @@
+
+html, body { height: 100%; padding: 0; margin: 0; }
+div { width: 20%; height: 20%; float: left; }
+#div5 { background: transparent; }
+#div6 { background: transparent; }
+#div7 { background: transparent; }
+#div8 { background: transparent; }
+#div9 { background: transparent; }
+
+.C-Icon {
+
+    height: 90px ;
+    width: 90px ;
+    
+}
+
+.Puzzle {
+
+    height: 360px ;
+    width: 290px ;
+
+}
